@@ -19,16 +19,12 @@ This Repository contains the resources for MLFlow deployment with Azure resource
   - install pip in the environment: `conda install pip`
   - run `pip install -r requirements.txt`
 
-- **with pipenv** 
-  - install pipenv: `pip install pipenv`
-  - run `pipenv install` in the directory of the Pipfile
-  - activate the environment by `pipenv shell`
-
 ## The notebooks
-- `hands_on_example simple.ipynb`
+- `hands_on_example local.ipynb`
 - `hands_on_example Azure Resources.ipynb`
 - `hands_on_example AML.ipynb`
 - `hands_on_example Azure Databricks.ipynb`
+- `Create AzureML Workspace Template`
 - run `jupyter notebook`
 
 

@@ -1,0 +1,15 @@
+artifact_uri: ./mlruns/0/92342c1fd3d946b28262b1dcacd22087/artifacts
+end_time: 1602174068685
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 92342c1fd3d946b28262b1dcacd22087
+run_uuid: 92342c1fd3d946b28262b1dcacd22087
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1602174068574
+status: 3
+tags: []
+user_id: antfra

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/antfra/Desktop/MLFlow%20In%20Azure/notebooks/mlruns/1/bfe30f43d7af4884be934aaff74e20e8/artifacts
+end_time: 1601065549976
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+name: ''
+run_id: bfe30f43d7af4884be934aaff74e20e8
+run_uuid: bfe30f43d7af4884be934aaff74e20e8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1601065548358
+status: 3
+tags: []
+user_id: antfra

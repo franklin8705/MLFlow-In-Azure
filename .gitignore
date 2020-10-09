@@ -5,3 +5,4 @@ my_shell.sh
 *.pytest_cache
 *.vscode
 *__pycache__
+**/mlruns

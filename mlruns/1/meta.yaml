@@ -1,0 +1,4 @@
+artifact_location: file:///Users/antfra/Desktop/MLFlow%20In%20Azure/mlruns/1
+experiment_id: '1'
+lifecycle_stage: active
+name: My Simple New Experiment
