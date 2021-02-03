@@ -4,9 +4,11 @@ This Repository contains the resources for MLFlow deployment with Azure resource
 
 # Basic setup
 
-## Setup the environment
-- clone this repository
-- **with virtualenv (recommended)**
+## Clone This Repository
+  - `git clone git@github.com:franklin8705/MLFlow-In-Azure.git`
+
+## Install Dependencies
+- **with virtualenv**
   - install virtualenv: `pip install virtualenv`
   - create a new environment: `virtualenv mlflow_tutorial`
   - activate the environment: `source /mlflow_tutorial/bin/activate`
@@ -29,6 +31,23 @@ This Repository contains the resources for MLFlow deployment with Azure resource
 
 
 # Setup the Data environment
+
+## Create Local Environment Variable File (root/.env)
+## Update connection string information 
+- Simple examples:
+  - `export MLFLOW_SERVER_URI = '<mlflow_uri>`
+  - `export AZURE_SUBSCRIPTION_ID = '<subscription>`
+  - `export AZURE_RESOURCE_GROUP = '<resource_group>`
+  - `export AZURE_TENANT_ID = '<tenant_id>`
+- For more complex examples:
+  - `export BLOB_ACCESS_KEY = '<Azure storage access key>`
+  - `export BLOB_CONNECTION_STRING = '<Azure storage connection string>`
+  - `export PG_SERVER_HOST = '<host_url>`
+  - `export PG_DBNAME = '<dbname>`
+  - `export PG_USER = '<user name>`
+  - `export PG_USER_PASSWORD = '<password>`
+- Note: this file is included in the `.gitignore`
+
 ## Create Azure Postgres DB Instance
 - www.portal.azure.com
 
@@ -38,8 +57,8 @@ This Repository contains the resources for MLFlow deployment with Azure resource
 - run `connect_db.py`
 
 ## Set up local environment vars to connect to blob
-- `export AZURE_STORAGE_ACCESS_KEY = <access key>`
-- `export AZURE_STORAGE_CONNECTION_STRING = <connection string>`
+- `export AZURE_STORAGE_ACCESS_KEY = '<access key>`'
+- `export AZURE_STORAGE_CONNECTION_STRING = '<connection string>`'
 
 ## To Start Tracking Server
 - `mlflow server \`

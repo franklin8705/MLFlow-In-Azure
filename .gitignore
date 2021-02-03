@@ -6,3 +6,4 @@ my_shell.sh
 *.vscode
 *__pycache__
 **/mlruns
+*.DS_Store
